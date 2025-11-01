@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Gaussian Elimination Solver</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Gaussian Elimination Solver</h1>
+    <form> <!-- to make the solution page independent when click on solve -->
+        <label for="var">Enter a number of variables</label>
+        <input type="number" id="var" min="2" max="100" autofocus placeholder=">=2"><br>
+
+        <div id="inputs"></div>
+        <div id="dis_sol"></div>
+        <input type="button" value="Solve" id="submit">
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
